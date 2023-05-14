@@ -1,16 +1,20 @@
 /**
  * @file main.cpp
  * @author Luka Luig
- * @brief
+ * @brief 
  * @date 2023-05-14
- *
- * Copyright (c) 2023 luka luig
- *
+ * 
+ * @copyright Copyright (c) 2023
+ * 
  */
 
+#include "event.h"
+#include "player.h"
 #include <iostream>
 
 int main() {
 	// test
-	std::cout << "Hello, world!" << std::endl;
+	Player luka;
+	luka.set_name("luka");
+	std::cout << luka.get_name() << std::endl;
 }
